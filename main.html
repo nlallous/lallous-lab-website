@@ -24,7 +24,8 @@
     <!-- Header & Navigation -->
     <header class="sticky top-0 z-50 bg-white shadow-lg">
         <div class="container mx-auto px-4 py-8 flex justify-between items-center">
-            <h1 class="text-2xl font-bold text-teal-600">
+            <h1 class="text-2xl font-bold text-teal-600 flex items-center gap-3">
+                <img src="/images/logos/lallous_logo.png" alt="The Lallous Lab logo" class="h-20 w-auto" />
                 The Lallous Lab
             </h1>
             <!-- Desktop Navigation -->
@@ -53,7 +54,7 @@
 
     <!-- Main Content Container -->
     <main>
-        <!-- Hero Section (Key Selling Point) -->
+        <!-- Hero Section -->
         <section class="bg-teal-700 text-white py-16 md:py-24">
             <div class="container mx-auto px-4 text-center">
                 <h2 class="text-4xl md:text-6xl font-extrabold mb-4 leading-tight">
@@ -74,23 +75,24 @@
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <!-- Research Card 1 -->
                 <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition duration-300 border border-teal-100">
-                    <div class="text-4xl text-teal-600 mb-4">🔬</div>
-                    <h3 class="text-xl font-semibold mb-3">Bioinformatic Predictions of Sequence Patterns Involved in Nuclear Receptor Phase Separation</h3>
+                    <h3 class="text-xl font-semibold mb-3">Identifying Motifs that Drive Nuclear Hormone Receptor Condensates</h3>
+                    <img src="/images/research/bioinformatics_figure.png" class="mt-4 w-full rounded-lg object-cover" />
                     <p class="text-gray-600">
-                        Description 1
+                        We use various computational tools to uncover how protein sequence motifs and DNA elements influence the formation and function of transcriptional condensates. By examining patterns within protein sequences and comparing them to predicted phase-separation behavior, we can identify regions that help condensate assembly, coactivator recruitment, or changes in gene activity.  These analyses are further validated  by experimental work using both cell based and cell-free assays. To systematically map these relationships, we developed ProPat, a tool that profiles charge and amino acid composition patterns across nuclear receptor sequences and integrates them with predicted phase-separation propensity scores. By ranking and aligning these motifs at both local and whole-protein scales, ProPat allows us to prioritize the sequence features most likely to contribute to condensate nucleation or stability. Findings from these analyses are further validated through experimental work using both cell-based and cell-free assays.
                     </p>
+
                 </div>
                 <!-- Research Card 2 -->
                 <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition duration-300 border border-teal-100">
-                    <div class="text-4xl text-teal-600 mb-4">🧠</div>
-                    <h3 class="text-xl font-semibold mb-3">Functional Characterization of Oncologic Condensates in Cancer</h3>
+                    <h3 class="text-xl font-semibold mb-3">Identification of Condensate Modulators as Novel Therapeutic Targets for Cancer</h3>
+                    <img src="/images/research/drug_development.png" class="mt-4 w-full rounded-lg object-cover" />
                     <p class="text-gray-600">
-                        Description 2
+                        Many transcription factors and cancer drivers rely on condensates to activate specific oncogenic programs. These condensates are very selective in their composition, and this selectivity extends to drug therapeutics. Some treatments fail because they are excluded from reaching their targets, which may be shielded within condensates. By disrupting oncogenic condensates or stabilizing tumour-suppressor ones, we may identify more effective strategies for treating resistant cancers. We combine high-content imaging, in vitro biophysics, and cell-based experiments to identify compounds that alter condensate behavior. Automated microscopy enables the screening of chemical libraries and the detection of changes in condensate number, size, or dynamics. Promising compounds are then tested with purified proteins to determine whether they directly affect phase separation or interactions with DNA or cofactors. In parallel, cell-based assays measure how compound-driven changes in condensates impact transcriptional activity, chromatin engagement, and relevant cancer phenotypes.
                     </p>
+                    <img src="/images/research/transcriptional_condensates.png" alt="Description of image" class="mt-4 w-full rounded-lg object-cover" />
                 </div>
                 <!-- Research Card 3 -->
                 <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition duration-300 border border-teal-100">
-                    <div class="text-4xl text-teal-600 mb-4">🧬</div>
                     <h3 class="text-xl font-semibold mb-3">Screening for Condensate Modulators</h3>
                     <p class="text-gray-600">
                         Description 3
@@ -98,9 +100,9 @@
                 </div>
             </div>
             
-            <div class="text-center mt-12">
+            <!-- <div class="text-center mt-12">
                 <a href="#" class="text-teal-600 font-semibold hover:underline">View All Projects &rarr;</a>
-            </div>
+            </div> -->
         </section>
 
         <!-- People Section -->
@@ -112,45 +114,38 @@
                     
                     <div class="bg-white p-6 text-center rounded-xl shadow-md border-t-4 border-teal-500">
                         <!-- Placeholder Image -->
-                        <img src="images/nada_lallous.png" alt="Placeholder" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover object-top border-4 border-white shadow-lg">
+                        <img src="images/people/nada_lallous.png" alt="Placeholder" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover object-top border-4 border-white shadow-lg">
                         <h3 class="text-xl font-bold text-gray-900">Nada Lallous</h3>
                         <p class="text-teal-600 font-medium">Assistant professor, University of British Columbia/Senior Research Scientist, Vancouver Prostate Centre/ Director, the Gobind Khorana Protein engineering Core.</p>
                         <p class="text-sm text-gray-500 mt-2">As an Assistant Professor, I oversee the training and mentorship of my team members, guide the scientific vision and research priorities of my group, and lead efforts to secure funding to sustain and expand our research program. As Director of the Gobind Khorana Protein Engineering Core, I oversee ongoing projects and ensure that milestones and deadlines are met. <br><br> In addition to my scientific work, I enjoy reading (mainly fiction), attending plays and comedy shows, painting, pottery, and building Lego sets. I am also a proud mom of two amazing kids!</p>
                     </div>
 
                     <div class="bg-white p-6 text-center rounded-xl shadow-md border-t-4 border-[#e9c46a]">
-                        <img src="images/rafailia_beta.png" alt="Placeholder" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover border-4 border-white shadow-lg">
+                        <img src="images/people/rafailia_beta.png" alt="Placeholder" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover border-4 border-white shadow-lg">
                         <h3 class="text-xl font-bold text-gray-900">Rafailia Beta</h3>
-                        <p class="text-gray-600 font-medium">Postdoctoral Fellow</p>
+                        <p class="text-[#e9c46a] font-medium">Postdoctoral Fellow</p>
                         <p class="text-sm text-gray-500 mt-2">Rafailia investigates RNA-based regulatory mechanisms and their roles in gene expression and disease progression aiming to uncover molecular mechanisms that can inform the development of novel therapeutic strategies. Outside the lab, Rafailia enjoys science communication, mentoring young researchers, and unwinding through painting and swimming.</p>
                     </div>
 
                     <div class="bg-white p-6 text-center rounded-xl shadow-md border-t-4 border-[#f4a261]">
-                        <img src="images/mailyn_terrado.png" alt="Placeholder" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover border-4 border-white shadow-lg">
+                        <img src="images/people/mailyn_terrado.png" alt="Placeholder" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover border-4 border-white shadow-lg">
                         <h3 class="text-xl font-bold text-gray-900">Mailyn Terrado PhD</h3>
-                        <p class="text-gray-600 font-medium">Research Associate</p>
+                        <p class="text-[#f4a261] font-medium">Research Associate</p>
                         <p class="text-sm text-gray-500 mt-2">I primarily work in the Protein Core Lab, where I perform protein expression and purification from both bacterial and mammalian systems, as well as biophysical characterization such as binding assays and protein quality assessments. In the Lallous research group, my work focuses on androgen receptor (AR) expression and purification. <br><br> I spend a lot of time adventuring with Lilo, a goldendoodle—we love discovering new parks and neighborhoods. When I’m not out with him, you’ll usually find me cross-stitching, solving puzzles, reading, or teaching myself how to crochet.</p>
                     </div>
 
                     <div class="bg-white p-6 text-center rounded-xl shadow-md border-t-4 border-[#e76f51]">
-                        <img src="images/shabnam_massah.png" alt="Placeholder" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover border-4 border-white shadow-lg">
+                        <img src="images/people/shabnam_massah.png" alt="Placeholder" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover border-4 border-white shadow-lg">
                         <h3 class="text-xl font-bold text-gray-900">Shabnam Massah</h3>
-                        <p class="text-gray-600 font-medium">Research Associate</p>
+                        <p class="text-[#e76f51] font-medium">Research Associate</p>
                         <p class="text-sm text-gray-500 mt-2">I study how transcriptional condensates regulate oncogenic gene programs to drive prostate cancer progression, using a range of molecular and cellular biology approaches. <br><br> Outside the lab, I enjoy playing music and staying active through regular exercise.</p>
                     </div>
 
                     <div class="bg-white p-6 text-center rounded-xl shadow-md border-t-4 border-[#264653]">
-                        <img src="images/nicholas_pinette.JPG" alt="Placeholder" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover border-4 border-white shadow-lg">
+                        <img src="images/people/nicholas_pinette.JPG" alt="Placeholder" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover border-4 border-white shadow-lg">
                         <h3 class="text-xl font-bold text-gray-900">Nicholas Pinette</h3>
-                        <p class="text-gray-600 font-medium">Transition Student</p>
+                        <p class="text-[#264653] font-medium">Transition Student</p>
                         <p class="text-sm text-gray-500 mt-2">I am a laboratory technician in Dr. Nada Lallous’s lab at the Vancouver Prostate Centre, where I study how the androgen receptor (AR) forms biomolecular condensates through liquid–liquid phase separation in prostate cancer. My work integrates molecular biology, microscopy, and computational analyses to understand how these condensates regulate transcription and contribute to disease progression. <br><br> Outside the lab, I’m an avid photographer who enjoys capturing nature and cityscapes around Vancouver. I’m also a lifelong hockey fan and player, always ready to join a local game or cheer on the Canucks. </p>
-                    </div>
-
-                    <div class="bg-white p-6 text-center rounded-xl shadow-md border-t-4 border-teal-500">
-                        <img src="images/vanessa_arianto.JPG" alt="Placeholder" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover border-4 border-white shadow-lg">
-                        <h3 class="text-xl font-bold text-gray-900">Vanessa Arianto</h3>
-                        <p class="text-gray-600 font-medium">Co-op Student</p>
-                        <p class="text-sm text-gray-500 mt-2">I work on multiple molecular cloning projects, with a primary focus on AR-V7 constructs using PiggyBac and APEX vectors, and contribute to the development of stable mammalian cell lines. <br><br> Outside of the lab, I enjoy trying new restaurants in Vancouver, running, and playing music. </p>
                     </div>
                     
                 </div>
@@ -158,10 +153,7 @@
                 <div class="bg-white p-6 mt-8 rounded-xl shadow-md border-t-4 border-gray-300">
                     <h3 class="text-xl font-bold text-gray-900 text-center">Alumni</h3>
                     <div class="mt-4 flex flex-wrap justify-center gap-4">
-                        <span class="text-gray-700">John Doe, 2020</span>
-                        <span class="text-gray-700">Jane Smith, 2022</span>
-                        <span class="text-gray-700">Michael Johnson, 2021</span>
-                        <span class="text-gray-700">Emily Davis, 2025</span>
+                        <span class="text-gray-700">Vanessa, Arianto, 2025</span>
                     </div>
                 </div>
                 
@@ -216,7 +208,7 @@
             </div>
         </section>
 
-        <!-- Contact/Join Section (Call to Action) -->
+        <!-- Contact/Join Section  -->
         <section id="contact" class="bg-teal-600 text-white py-16 md:py-20">
             <div class="container mx-auto px-4 text-center">
                 <h2 class="text-3xl md:text-4xl font-bold mb-4">Join Our Team</h2>
@@ -225,7 +217,7 @@
                 </p>
                 
                 <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6">
-                    <a href="mailto:example@gmail.com" class="px-8 py-3 text-lg font-semibold bg-white text-teal-600 rounded-lg shadow-xl hover:bg-gray-100 transition duration-300">
+                    <a href="mailto:nada.lallous@ubc.ca" class="px-8 py-3 text-lg font-semibold bg-white text-teal-600 rounded-lg shadow-xl hover:bg-gray-100 transition duration-300">
                         Email the PI
                     </a>
                     <a href="#" class="px-8 py-3 text-lg font-semibold border-2 border-white text-white rounded-lg hover:bg-white hover:text-teal-600 transition duration-300">
@@ -237,200 +229,14 @@
 
     </main>
 
-
-
-
-
     <!-- Footer -->
     <footer class="bg-gray-800 text-white py-8">
         <div class="container mx-auto px-4 text-center text-sm">
-            <p>&copy; 2025 Lallous Lab. Dr. Nada Lallous</p>
-            <p class="mt-1">Faculty of Medicine | UBC | Location, ZIP Code</p>
+            <p>&copy; 2025 Lallous Lab.</p>
+            <p class="mt-1">Faculty of Medicine | UBC </p>
         </div>
     </footer>
 
-    <!-- JavaScript for Mobile Menu Toggle -->
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            // --- Mobile Menu Logic ---
-            const button = document.getElementById('mobile-menu-button');
-            const menu = document.getElementById('mobile-menu');
-
-            button.addEventListener('click', () => {
-                menu.classList.toggle('hidden');
-            });
-
-            // Close menu when a link is clicked
-            menu.querySelectorAll('a').forEach(link => {
-                link.addEventListener('click', () => {
-                    menu.classList.add('hidden');
-                });
-            });
-
-            // Simple smooth scrolling for internal links
-            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-                anchor.addEventListener('click', function (e) {
-                    e.preventDefault();
-
-                    const targetId = this.getAttribute('href').substring(1);
-                    const targetElement = document.getElementById(targetId);
-
-                    if (targetElement) {
-                        targetElement.scrollIntoView({
-                            behavior: 'smooth'
-                        });
-                    }
-                });
-            });
-
-
-            // --- Carousel Logic ---
-            const newsItems = [
-                {
-                    title: "Title",
-                    description: "Text",
-                    imageUrl: "https://placehold.co/800x400/0f766e/ffffff?text=GRANT+AWARD"
-                },
-                {
-                    title: "Title",
-                    description: "Text",
-                    imageUrl: "https://placehold.co/800x400/99f6e4/0f766e?text=NEW+TEAM+MEMBER"
-                },
-                {
-                    title: "Title",
-                    description: "Text",
-                    imageUrl: "https://placehold.co/800x400/14b8a6/ffffff?text=CONFERENCE+PRESENTATION"
-                }
-            ];
-
-            let currentSlideIndex = 0;
-            const slidesContainer = document.getElementById('carousel-slides');
-            const indicatorsContainer = document.getElementById('carousel-indicators');
-            const prevButton = document.getElementById('prev-button');
-            const nextButton = document.getElementById('next-button');
-
-            function renderCarousel() {
-                slidesContainer.innerHTML = '';
-                indicatorsContainer.innerHTML = '';
-
-                newsItems.forEach((item, index) => {
-                    // Create Slide Element
-                    const slide = document.createElement('div');
-                    slide.className = `slide flex flex-col md:flex-row transition-opacity duration-500 ease-in-out ${index === currentSlideIndex ? 'opacity-100 block' : 'opacity-0 hidden'}`;
-                    
-                    slide.innerHTML = `
-                        <div class="md:w-1/2">
-                            <img src="${item.imageUrl}" alt="${item.title}" class="w-full h-auto object-cover md:rounded-l-xl md:rounded-r-none rounded-t-xl" onerror="this.onerror=null; this.src='https://placehold.co/800x400/1f2937/f3f4f6?text=Image+Unavailable';">
-                        </div>
-                        <div class="md:w-1/2 p-6 md:p-10 flex flex-col justify-center">
-                            <h3 class="text-xl md:text-2xl font-bold text-teal-600 mb-3">${item.title}</h3>
-                            <p class="text-gray-700">${item.description}</p>
-                            <span class="text-sm text-gray-500 mt-4">Posted: Oct 2025</span>
-                        </div>
-                    `;
-                    slidesContainer.appendChild(slide);
-
-                    // Create Indicator Dots
-                    const indicator = document.createElement('button');
-                    indicator.className = `w-3 h-3 rounded-full mx-1 transition-colors duration-300 ${index === currentSlideIndex ? 'bg-teal-600' : 'bg-gray-300 hover:bg-gray-400'}`;
-                    indicator.setAttribute('data-index', index);
-                    indicator.addEventListener('click', () => {
-                        currentSlideIndex = index;
-                        renderCarousel();
-                    });
-                    indicatorsContainer.appendChild(indicator);
-                });
-            }
-
-            function nextSlide() {
-                currentSlideIndex = (currentSlideIndex + 1) % newsItems.length;
-                renderCarousel();
-            }
-
-            function prevSlide() {
-                currentSlideIndex = (currentSlideIndex - 1 + newsItems.length) % newsItems.length;
-                renderCarousel();
-            }
-
-            // Initial render
-            renderCarousel();
-
-            // Event listeners for navigation buttons
-            nextButton.addEventListener('click', nextSlide);
-            prevButton.addEventListener('click', prevSlide);
-
-            // Optional: Auto-advance slides every 5 seconds
-            // setInterval(nextSlide, 5000);
-
-
-            // --- Publications Filter Logic ---
-            const publications = [
-                {
-                    year: "2025",
-                    title: "Single-cell profiling reveals immune landscape plasticity in drug-resistant lung cancer.",
-                    authors: "Sharma, A., Jin, K., Popova, E. et al.",
-                    journal: "Nature Genetics",
-                    doi: "https://www.youtube.com/"
-                },
-                {
-                    year: "2024",
-                    title: "A Bayesian framework for robust inference of cellular trajectories from noisy scRNA-seq data.",
-                    authors: "Popova, E., Sharma, A., et al.",
-                    journal: "Cell Systems",
-                    doi: ""
-                },
-
-            ];
-
-            const yearFiltersContainer = document.getElementById('pub-year-filters');
-            const pubListContainer = document.getElementById('publications-list');
-            
-            // Get unique years and sort descending
-            const years = ["All", ...new Set(publications.map(p => p.year))].sort((a, b) => b - a);
-            let activeYear = "All";
-
-            function renderPubs() {
-                // Render filter buttons
-                yearFiltersContainer.innerHTML = '';
-                years.forEach(year => {
-                    const btn = document.createElement('button');
-                    btn.textContent = year;
-                    btn.className = `px-6 py-2 rounded-full font-semibold transition-all duration-300 border-2 ${
-                        activeYear === year 
-                        ? 'bg-teal-600 border-teal-600 text-white shadow-md' 
-                        : 'border-teal-600 text-teal-600 hover:bg-teal-50'
-                    }`;
-                    btn.onclick = () => {
-                        activeYear = year;
-                        renderPubs();
-                    };
-                    yearFiltersContainer.appendChild(btn);
-                });
-
-                // Render list
-                pubListContainer.innerHTML = '';
-                const filtered = activeYear === "All" 
-                    ? publications 
-                    : publications.filter(p => p.year === activeYear);
-
-                filtered.forEach(pub => {
-                    const item = document.createElement('div');
-                    item.className = 'bg-white p-6 rounded-lg shadow-md border-l-4 border-teal-500 hover:shadow-lg transition-shadow duration-300';
-                    item.innerHTML = `
-                        <p class="text-lg font-semibold text-gray-800">${pub.title}</p>
-                        <p class="text-sm text-gray-600 mt-2">
-                            ${pub.authors} <span class="text-teal-600 italic font-medium">${pub.journal}</span> (${pub.year}). 
-                            <a href= ${pub.doi} class="ml-2 text-blue-500 hover:underline inline-flex items-center">
-                                [DOI]
-                            </a>
-                        </p>
-                    `;
-                    pubListContainer.appendChild(item);
-                });
-            }
-
-            renderPubs();
-        });
-    </script>
+    <script src="scripts.js"></script>    
 </body>
 </html>
