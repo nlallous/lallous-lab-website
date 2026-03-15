@@ -134,13 +134,6 @@
                     journal: "Nature Genetics",
                     doi: "https://www.youtube.com/"
                 },
-                {
-                    year: "2024",
-                    title: "A Bayesian framework for robust inference of cellular trajectories from noisy scRNA-seq data.",
-                    authors: "Popova, E., Sharma, A., et al.",
-                    journal: "Cell Systems",
-                    doi: ""
-                },
 
             ];
 
