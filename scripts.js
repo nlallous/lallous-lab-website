@@ -128,11 +128,53 @@
             // --- Publications Filter Logic ---
             const publications = [
                 {
+                    year: "2026",
+                    title: "Next-generation predictors of protein phase behavior.",
+                    authors: "Pinette NC, Terrado M, Bui JM, Lallous N, Gsponer J.",
+                    journal: "Curr Opin Struct Biol.",
+                    doi: "https://doi.org/10.1016/j.sbi.2025.103197"
+                },
+                {
                     year: "2025",
-                    title: "Single-cell profiling reveals immune landscape plasticity in drug-resistant lung cancer.",
-                    authors: "Sharma, A., Jin, K., Popova, E. et al.",
-                    journal: "Nature Genetics",
-                    doi: "https://www.youtube.com/"
+                    title: "AR-V7 condensates drive androgen-independent transcription in castration resistant prostate cancer.",
+                    authors: "Massah S, Pinette N, Foo J, Datta S, Guo M, Bell R, Haegert A, Tekoglu TE, Terrado M, Volik S, Bihan SL, Bui JM, Lack NA, Gleave ME, Rhie SK, Collins CC, Gsponer J, Lallous N.",
+                    journal: "bioRxiv.",
+                    doi: "https://doi.org/10.1101/2025.01.08.631986"
+                },
+                {
+                    year: "2023",
+                    title: "Dynamic phase separation of the androgen receptor and its coactivators key to regulate gene expression.",
+                    authors: "Zhang F, Biswas M, Massah S, Lee J, Lingadahalli S, Wong S, Wells C, Foo J, Khan N, Morin H, Saxena N, Kung SHY, Sun B, Parra Nuñez AK, Sanchez C, Chan N, Ung L, Altıntaş UB, Bui JM, Wang Y, Fazli L, Oo HZ, Rennie PS, Lack NA, Cherkasov A, Gleave ME, Gsponer J, Lallous N.",
+                    journal: "Nucleic Acids Res.",
+                    doi: "https://doi.org/10.1093/nar/gkac1158"
+                },
+                {
+                    year: "2024",
+                    title: "Characterization of novel small molecule inhibitors of estrogen receptor-activation function 2 (ER-AF2).",
+                    authors: "Foo J, Gentile F, Massah S, Morin H, Singh K, Lee J, Smith J, Ban F, LeBlanc E, Young R, Strynadka N, Lallous N, Cherkasov A.",
+                    journal: "Breast Cancer Res.",
+                    doi: "https://doi.org/10.1186/s13058-024-01926-2"
+                },
+                {
+                    year: "2022",
+                    title: "Structure-Based Study to Overcome Cross-Reactivity of Novel Androgen Receptor Inhibitors.",
+                    authors: "Radaeva M, Li H, LeBlanc E, Dalal K, Ban F, Ciesielski F, Chow B, Morin H, Awrey S, Singh K, Rennie PS, Lallous N, Cherkasov A.",
+                    journal: "Cells.",
+                    doi: "https://doi.org/10.3390/cells11182785"
+                },
+                {
+                    year: "2021",
+                    title: "Evaluation of Darolutamide (ODM201) Efficiency on Androgen Receptor Mutants Reported to Date in Prostate Cancer Patients.",
+                    authors: "Lallous N, Snow O, Sanchez C, Parra Nuñez AK, Sun B, Hussain A, Lee J, Morin H, Leblanc E, Gleave ME, Cherkasov A.",
+                    journal: "Cancers (Basel).",
+                    doi: "https://doi.org/10.3390/cancers13122939"
+                },
+                {
+                    year: "2016",
+                    title: "Functional analysis of androgen receptor mutations that confer anti-androgen resistance identified in circulating cell-free DNA from prostate cancer patients.",
+                    authors: "Lallous N, Volik SV, Awrey S, Leblanc E, Tse R, Murillo J, Singh K, Azad AA, Wyatt AW, LeBihan S, Chi KN, Gleave ME, Rennie PS, Collins CC, Cherkasov A.",
+                    journal: "Genome Biol.",
+                    doi: "https://doi.org/10.1186/s13059-015-0864-1"
                 },
 
             ];
