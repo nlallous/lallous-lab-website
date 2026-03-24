@@ -1,3 +1,3 @@
 # lallous-lab-website
 
-This is the rough website for the lallous lab
+This is the project repository for the Lallous Lab website.
