@@ -36,7 +36,7 @@
             const newsItems = [
                 {
                     title: "Grant-in-Aid Award",
-                    description: "Rafailia earns an award for her work on RNA and protein analysis techniques to understand how different forms of the Androgen Receptor activate specific cancer programs.",
+                    description: "Rafailia earns the 2025 Grant-in-Aid award from Prostate Cancer Foundation Canada to study RNA and proteins in Androgen Receptor condensates and investigate how specific cancer are activated in this context.",
                     imageUrl: "images/events/rafailia_award.png"
                 },
                 {
