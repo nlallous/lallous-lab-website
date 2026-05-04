@@ -17,6 +17,25 @@
         html {
             scroll-behavior: smooth;
         }
+        /* ── Gallery ── */
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1rem;
+        }
+        @media (max-width: 900px) { .gallery-grid { grid-template-columns: repeat(2, 1fr); } }
+        @media (max-width: 560px) { .gallery-grid { grid-template-columns: 1fr; } }
+ 
+        .gallery-item {
+            border-radius: 12px;
+            overflow: hidden;
+        }
+        .gallery-item img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            display: block;
+        }
     </style>
     <link rel="icon" href="images/logos/favicon.ico" type="image/png" />
 </head>
@@ -35,6 +54,7 @@
                 <a href="#people" class="hover:text-teal-600 transition duration-300">People</a>
                 <a href="#publications" class="hover:text-teal-600 transition duration-300">Publications</a>
                 <a href="#news" class="hover:text-teal-600 transition duration-300">News</a>
+                <a href="#gallery" class="hover:text-teal-600 transition duration-300">Gallery</a>
                 <a href="#conduct" class="hover:text-teal-600 transition duration-300">Code of Conduct</a>
                 <a href="#contact" class="hover:text-teal-600 transition duration-300">Join Us</a>
             </nav>
@@ -340,6 +360,38 @@
                 <a href="https://www.ncbi.nlm.nih.gov/myncbi/1zeR-c7Aoah5u/bibliography/public/" target="_blank" class="text-teal-600 font-semibold hover:underline">View Full Publications Profile &rarr;</a>
             </div>
          </section>
+
+
+                 <!-- PHOTO GALLERY SECTION -->
+        <section id="gallery" class="bg-gray-100 py-16 md:py-24">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-3 text-gray-800">Lab Gallery</h2>
+                <p class="text-center text-gray-500 mb-10 max-w-xl mx-auto">
+                    A glimpse into life at the Lallous Lab — our science, celebrations, and community.
+                </p>
+ 
+                <div class="gallery-grid">
+ 
+                    <div class="gallery-item"><img src="images/gallery/1.jpg"  loading="lazy"></div>
+                    <div class="gallery-item"><img src="images/gallery/2.jpg"  loading="lazy"></div>
+                    <div class="gallery-item"><img src="images/gallery/3.jpg"  loading="lazy"></div>
+                    <div class="gallery-item"><img src="images/gallery/4.jpg"  loading="lazy"></div>
+                    <div class="gallery-item"><img src="images/gallery/5.jpg"  loading="lazy"></div>
+                    <div class="gallery-item"><img src="images/gallery/6.jpg"  loading="lazy"></div>
+                    <div class="gallery-item"><img src="images/gallery/7.jpg"  loading="lazy"></div>
+                    <div class="gallery-item"><img src="images/gallery/8.jpg"  loading="lazy"></div>
+                    <div class="gallery-item"><img src="images/gallery/9.JPG"  loading="lazy"></div>
+                    <div class="gallery-item"><img src="images/gallery/10.jpg"  loading="lazy"></div>
+                    <div class="gallery-item"><img src="images/gallery/11.jpeg"  loading="lazy"></div>
+                    <div class="gallery-item"><img src="images/gallery/12.JPG"  loading="lazy"></div>
+                    <div class="gallery-item"><img src="images/gallery/13.jpeg"  loading="lazy"></div>
+                    <div class="gallery-item"><img src="images/gallery/14.JPG"  loading="lazy"></div>
+                    <div class="gallery-item"><img src="images/gallery/15.jpg"  loading="lazy"></div>
+                    <div class="gallery-item"><img src="images/gallery/16.jpeg"  loading="lazy"></div>
+                    <div class="gallery-item"><img src="images/gallery/17.JPG"  loading="lazy"></div>
+                </div>
+            </div>
+        </section>
 
         <!-- News -->
 
