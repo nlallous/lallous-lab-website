@@ -180,6 +180,13 @@
     const allPublications = [
             {
                 year: "2026",
+                title: "Recent advances in purpose-built 3D bioprinted cancer models for drug development.",
+                authors: "Ramos L, Robinson M, Lallous N, Flannigan R, Daugaard M.",
+                journal: "Expert Opin Drug Discov.",
+                doi: "https://doi.org/10.1080/17460441.2026.2642320"
+            },
+            {
+                year: "2026",
                 title: "Next-generation predictors of protein phase behavior.",
                 authors: "Pinette NC, Terrado M, Bui JM, Lallous N, Gsponer J.",
                 journal: "Curr Opin Struct Biol.",
